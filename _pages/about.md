@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: sfolk_profile_cropped.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: #>
+    #<p>555 your office number</p>
+    #<p>123 your address street</p>
+    #<p>Your City, State 12345</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. Candidate in the [GRASP Lab](https://www.grasp.upenn.edu/) at the University of Pennsylvania, where I am co-advised by [Vijay Kumar](https://www.kumarrobotics.org/) and [Mark Yim](https://www.modlabupenn.org/). Broadly speaking, my dissertation research studies how wind affects perception, planning, and control for UAVs operating in cluttered environments. Through my research, I strive to enable UAVs to reason about the complex wind patterns that arise in the urban canopy layer in real time using onboard sensing and compute, and to use this enhanced environmental awareness to operate safely, efficiently, and autonomously in future urban airspaces. My approach harnesses synergies between classical state estimation algorithms (e.g. Kalman filters), receding horizon optimal control, deep learning, rotary-wing aerodynamics, and fluid mechanics to proactively adjust flight trajectories with safety and energy efficiency in mind. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Beyond my role as a Ph.D. candidate at GRASP, I also work with NASA as a Pathways intern on projects utilizing UAVs as mobile in-situ wind sensors. [These](https://www.nasa.gov/centers-and-facilities/armstrong/nasa-armstrong-supports-wind-study/) [initiatives](https://www.nasa.gov/centers-and-facilities/armstrong/nasa-concludes-wind-study/) aim to improve the accuracy and timeliness of urban weather forecasts, inform policy for future urban airspaces, and catalyze advancements in urban air mobility technologies. Prior to starting my Ph.D., my previous research for the U.S. Army Research Laboratory centered on designing 3D printed UAVs. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Looking ahead, I aspire to one day develop algorithms for planetary UAV probes, empowering safe and efficient autonomous scientific exploration of our solar system's atmospheres.
