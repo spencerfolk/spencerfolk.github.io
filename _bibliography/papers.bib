@@ -4,7 +4,6 @@
 @string{aps = {American Physical Society,}}
 
 @article{folk2024windprediction,
-  selected={true},
   author={Folk, Spencer and Melton, John and Margolis, Benjamin W. L. and Yim, Mark and Kumar, Vijay},
   journal={IEEE Robotics and Automation Letters}, 
   title={Learning Local Urban Wind Flow Fields From Range Sensing}, 
@@ -12,19 +11,16 @@
   volume={9},
   number={9},
   pages={7413-7420},
-  url={https://ieeexplore.ieee.org/abstract/document/10592305},
-  pdf={https://ieeexplore.ieee.org/abstract/document/10592305},
+  eprint={https://ieeexplore.ieee.org/abstract/document/10592305},
   abstract={Obtaining accurate and timely predictions of the wind through an urban environment is a challenging task, but has wide-ranging implications for the safety and efficiency of autonomous aerial vehicles in future urban airspaces. Prior work relies strongly on global information about the environment, such as a precise map of the city and in-situ wind measurements at various locations, to run expensive computational fluid dynamics solvers to predict the entire wind flow field. In contrast, this letter introduces a new method to estimate the wind flow field in a region around the robot in real time, utilizing on-board range measurements to sense nearby buildings and sparse wind measurements to infer windspeed and direction. We propose that this information sufficiently characterizes the structure of the wind flow field in the local region of interest. To that end, we introduce a deep learning-based approach to predict local flow fields from range measurements. Our results indicate that a neural network trained on numerous simulated winds through small randomized maps is capable of reconstructing local wind flows while generalizing to larger environments with over 200 buildings. This contribution empowers computationally-constrained aerial robots to reason about the structure of local wind flow fields, thereby enabling new planning, control, and estimation strategies in windy urban environments without a priori knowledge of the map.},
-  keywords={Wind;Wind forecasting;Sensors;Urban areas;Robot sensing systems;Real-time systems;Vectors;Aerial systems: perception and autonomy;deep learning methods;automation technologies for smart cities},
-  doi={10.1109/LRA.2024.3426209}
+  doi={10.1109/LRA.2024.3426209},
+  selected={true},
 }
 
 @article{folk2023rotorpy,
-  selected={true},
   title={{RotorPy}: A Python-based Multirotor Simulator with Aerodynamics for Education and Research},
   author={Folk, Spencer and Paulos, James and Kumar, Vijay},
   location={ICRA 2023 Workshop: The Role of Robotics Simulators for Unmanned Aerial Vehicles},
-  eprint={https://arxiv.org/abs/2306.04485},
   archivePrefix={arXiv},
   primaryClass={cs.RO},
   url={https://arxiv.org/abs/2306.04485},
@@ -32,13 +28,12 @@
   pdf={https://arxiv.org/abs/2306.04485},
   year={2023},
   abstract={Simulators play a critical role in aerial robotics both in and out of the classroom. We present RotorPy, a simulation environment written entirely in Python intentionally designed to be a lightweight and accessible tool for robotics students and researchers alike to probe concepts in estimation, planning, and control for aerial robots. RotorPy simulates the 6-DoF dynamics of a multirotor robot including aerodynamic wrenches, obstacles, actuator dynamics and saturation, realistic sensors, and wind models. This work describes the modeling choices for RotorPy, benchmark testing against real data, and a case study using the simulator to design and evaluate a model-based wind estimator.},
+  selected={true},
 }
 
 @article{zhang2024change,
-  selected={false},
   title={Why change your controller when you can change your planner: Drag-aware trajectory generation for quadrotor systems},
   author={Zhang, Hanli and Srikanthan, Anusha and Folk, Spencer and Kumar, Vijay and Matni, Nikolai},
-  eprint={https://arxiv.org/abs/2401.04960},
   archivePrefix={arXiv},
   primaryClass={cs.RO},
   url={https://arxiv.org/abs/2401.04960},
@@ -46,10 +41,10 @@
   pdf={https://arxiv.org/abs/2401.04960},
   year={2024},
   abstract={Motivated by the increasing use of quadrotors for payload delivery, we consider a joint trajectory generation and feedback control design problem for a quadrotor experiencing aerodynamic wrenches. Unmodeled aerodynamic drag forces from carried payloads can lead to catastrophic outcomes. Prior work model aerodynamic effects as residual dynamics or external disturbances in the control problem leading to a reactive policy that could be catastrophic. Moreover, redesigning controllers and tuning control gains on hardware platforms is a laborious effort. In this paper, we argue that adapting the trajectory generation component keeping the controller fixed can improve trajectory tracking for quadrotor systems experiencing drag forces. To achieve this, we formulate a drag-aware planning problem by applying a suitable relaxation to an optimal quadrotor control problem, introducing a tracking cost function which measures the ability of a controller to follow a reference trajectory. This tracking cost function acts as a regularizer in trajectory generation and is learned from data obtained from simulation. Our experiments in both simulation and on the Crazyflie hardware platform show that changing the planner reduces tracking error by as much as 83%. Evaluation on hardware demonstrates that our planned path, as opposed to a baseline, avoids controller saturation and catastrophic outcomes during aggressive maneuvers.},
+  selected={false},
 }
 
 @article{weakly2024bat,
-  selected={true},
   author = {Weakly, Jessica and Li, Xuan and Agarwal, Tejas and Li, Minchen and Folk, Spencer and Jiang, Chenfanfu and Sung, Cynthia},
   title = {Bistable Aerial Transformer: A Quadrotor Fixed-Wing Hybrid That Morphs Dynamically Via Passive Soft Mechanism},
   journal = {Journal of Mechanisms and Robotics},
@@ -57,17 +52,14 @@
   number = {7},
   pages = {071016},
   year = {2024},
-  month = {04},
   abstract = {Aerial vehicle missions require navigating trade-offs during design, such as the range, speed, maneuverability, and size. Multi-modal aerial vehicles enable this trade-off to be negotiated during flight. This paper presents a Bistable Aerial Transformer (BAT) robot, a novel morphing hybrid aerial vehicle that switches between quadrotor and fixed-wing modes via rapid acceleration and without any additional actuation beyond those required for normal flight. The design features a compliant bistable mechanism made of thermoplastic polyurethane (TPU) that bears a large mass at the center of the robot’s body. When accelerating, inertial forces transition the vehicle between its stable modes, and a four-bar linkage connected to the bistable mechanism folds the vehicle’s wings in and out. The paper includes the full robot design and a comparison of the fabricated system to the elastodynamic simulation. Successful transitions between the two modes in mid-flight, as well as sustained flight in each mode indicate that the vehicle experiences higher agility in the quadrotor mode and higher flight efficiency in the fixed-wing mode, at an energy equivalent cost of only 2 s of flight time per pair of transitions. The vehicle demonstrates how compliant and bistable mechanisms can be integrated into future aerial vehicles for controllable self-reconfiguration for tasks such as surveillance and sampling that require a combination of maneuverability and long-distance flight.},
   issn = {1942-4302},
   doi = {10.1115/1.4065159},
-  url = {https://doi.org/10.1115/1.4065159},
-  pdf = {https://asmedigitalcollection.asme.org/mechanismsrobotics/article-pdf/16/7/071016/7331224/jmr\_16\_7\_071016.pdf},
   eprint = {https://asmedigitalcollection.asme.org/mechanismsrobotics/article-pdf/16/7/071016/7331224/jmr\_16\_7\_071016.pdf},
+  selected={true},
 }
 
-@inproceedings{sanghvi2024occam,
-  selected={true},
+@article{sanghvi2024occam,
   title={OCCAM: Online Continuous Controller Adaptation with Meta-Learned Models},
   author={Sanghvi, Hersh and Folk, Spencer and Taylor, Camillo Jose},
   booktitle={8th Annual Conference on Robot Learning},
@@ -75,10 +67,10 @@
   arxiv={2406.17620}, 
   pdf={https://arxiv.org/abs/2406.17620},
   award={Oral presentation at CoRL (<20% acceptance rate)},
+  selected={true},
 }
 
 @article{brown2021archerfish,
-  selected={false},
   title={Archerfish respond to a hunting robotic conspecific},
   author={Brown, Alexander A and Brown, Michael F and Folk, Spencer R and Utter, Brent A},
   journal={Biological Cybernetics},
@@ -90,4 +82,5 @@
   pdf={https://link.springer.com/article/10.1007/s00422-021-00885-7},
   abstract={While the unique hunting behavior of archerfish has received considerable scientific attention, the specific social cues that govern behaviors like intraspecific kleptoparasitism in the species are less understood. This paper asks whether the use of a robotic facsimile representing an archerfish can elicit a social response if it approximates an archerfish’s appearance, along with key features of its hunting behavior. We found that the fish respond to the robot when it hunted, as indicated by decreasing distances between the robot and fish (and among the fish) during the robot’s hunting behavior sequence, as well as higher net transfer entropy when the robot was hunting. These effects were present even when the robot’s “hunt” was unproductive and did not result in food. The temporal pattern of fish approach to the robot and each other indicated that the segment of robot hunting behavior proximal to the robotic facsimile shot elicited fish behavior initially. However, earlier cues in the robot’s hunting sequence became important following more experience with a food contingency. This indicates that further studies could use a robotic facsimile to conduct a detailed stimulus analysis, changing aspects of the robot’s appearance and behavior to uncover the basic mechanisms of information transfer among individuals in a social hunting scenario.},
   doi={10.1007/s00422-021-00885-7},
+  selected={false},
 }
