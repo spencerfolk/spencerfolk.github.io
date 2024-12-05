@@ -16,6 +16,7 @@
   abstract={Obtaining accurate and timely predictions of the wind through an urban environment is a challenging task, but has wide-ranging implications for the safety and efficiency of autonomous aerial vehicles in future urban airspaces. Prior work relies strongly on global information about the environment, such as a precise map of the city and in-situ wind measurements at various locations, to run expensive computational fluid dynamics solvers to predict the entire wind flow field. In contrast, this letter introduces a new method to estimate the wind flow field in a region around the robot in real time, utilizing on-board range measurements to sense nearby buildings and sparse wind measurements to infer windspeed and direction. We propose that this information sufficiently characterizes the structure of the wind flow field in the local region of interest. To that end, we introduce a deep learning-based approach to predict local flow fields from range measurements. Our results indicate that a neural network trained on numerous simulated winds through small randomized maps is capable of reconstructing local wind flows while generalizing to larger environments with over 200 buildings. This contribution empowers computationally-constrained aerial robots to reason about the structure of local wind flow fields, thereby enabling new planning, control, and estimation strategies in windy urban environments without a priori knowledge of the map.},
   doi={10.1109/LRA.2024.3426209},
   video={https://youtu.be/fu1GekAQCqo?si=PvUFCbU_VXDeplXC},
+  preview={winddecoder_method.jpg},
   selected={true},
 }
 
@@ -31,6 +32,7 @@
   year={2023},
   code={https://github.com/spencerfolk/rotorpy/tree/main},
   abstract={Simulators play a critical role in aerial robotics both in and out of the classroom. We present RotorPy, a simulation environment written entirely in Python intentionally designed to be a lightweight and accessible tool for robotics students and researchers alike to probe concepts in estimation, planning, and control for aerial robots. RotorPy simulates the 6-DoF dynamics of a multirotor robot including aerodynamic wrenches, obstacles, actuator dynamics and saturation, realistic sensors, and wind models. This work describes the modeling choices for RotorPy, benchmark testing against real data, and a case study using the simulator to design and evaluate a model-based wind estimator.},
+  preview={quadrotor_model.jpg},
   selected={true},
 }
 
@@ -61,6 +63,7 @@
   doi = {10.1115/1.4065159},
   eprint = {https://asmedigitalcollection.asme.org/mechanismsrobotics/article-pdf/16/7/071016/7331224/jmr\_16\_7\_071016.pdf},
   video = {https://www.youtube.com/watch?v=eDKwBM2RLOg},
+  preview = {bat_outdoor.jpg},
   selected={true},
 }
 
@@ -75,6 +78,7 @@
   award={Oral presentation at CoRL (~4% of contributed papers)},
   abstract={Control tuning and adaptation present a significant challenge to the usage of robots in diverse environments. It is often nontrivial to find a single set of control parameters by hand that work well across the broad array of environments and conditions that a robot might encounter. Automated adaptation approaches must utilize prior knowledge about the system while adapting to significant domain shifts to find new control parameters quickly. In this work, we present a general framework for online controller adaptation that deals with these challenges. We combine meta-learning with Bayesian recursive estimation to learn prior predictive models of system performance that quickly adapt to online data, even when there is significant domain shift. These predictive models can be used as cost functions within efficient sampling-based optimization routines to find new control parameters online that maximize system performance. Our framework is powerful and flexible enough to adapt controllers for four diverse systems: a simulated race car, a simulated quadrupedal robot, and a simulated and physical quadrotor. The video and code can be found at this https URL. },
   code={https://github.com/hersh500/occam},
+  preview={occam_method.png},
   selected={true},
 }
 
