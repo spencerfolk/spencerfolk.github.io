@@ -315,7 +315,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Folk, Folk*]
-  first_name: [Spencer, S., S.R., spencer, Spencer*]
+  first_name: [Spencer, S., S.R., spencer, Spencer R., Spencer R, Spencer*]
 
   style: apa
   locale: en
