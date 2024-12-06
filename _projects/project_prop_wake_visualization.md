@@ -9,6 +9,6 @@ related_publications: true
 ---
 
 <img align="center" width="400" height="350" 
-src="https://drive.google.com/uc?export=view&id=1uK6M31inFo143eEuVVUpDHUJt1OimMk3">
+src="https://drive.google.com/uc?export=view&id=1uK6M31inFo143eEuVVUpDHUJt1OimMk3.gif">
 
 Currently under construction!
