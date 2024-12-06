@@ -8,6 +8,7 @@ category: work
 related_publications: true
 ---
 
-![Flow seeding a small propeller using an off-the-shelf humidifier](https://drive.google.com/uc?export=view&id=1uK6M31inFo143eEuVVUpDHUJt1OimMk3)
+<img align="center" width="400" height="350" 
+src="https://drive.google.com/uc?export=view&id=1uK6M31inFo143eEuVVUpDHUJt1OimMk3">
 
 Currently under construction!
