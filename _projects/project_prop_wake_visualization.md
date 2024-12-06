@@ -8,7 +8,6 @@ category: work
 related_publications: true
 ---
 
-<img align="center" width="400" height="350" 
-src="https://drive.google.com/uc?export=view&id=1uK6M31inFo143eEuVVUpDHUJt1OimMk3.gif">
+<iframe src="https://drive.google.com/file/d/1bVmLU7y2LIrQjiZZ-Qtv6k995YNnwOHZ/preview" width="640" height="480"></iframe>
 
 Currently under construction!
