@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Real-Time LiDAR Simulation in ROS
-description: Enabling mixed reality sensing on small UAVs. 
+title: Real-Time LiDAR Simulation
+description: Enabling mixed reality sensing on small UAVs by simulating LiDAR sensors in ROS.
 img: assets/img/projects/lidarsim/lidar_snapshot.png
 importance: 2
 category: work

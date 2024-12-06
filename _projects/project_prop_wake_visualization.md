@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Propeller Wake Visualization
-description: Experiments in seeing the wake of small UAV propellers.  
+description: Experimental attempts at visualizing the wakes of small UAV propellers.  
 img: assets/img/projects/prop_wake_visualization/5inprop_diff.png
 importance: 3
 category: work
