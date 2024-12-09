@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-<iframe style="display: block; margin: auto;" src="https://drive.google.com/file/d/1bVmLU7y2LIrQjiZZ-Qtv6k995YNnwOHZ/preview?autoplay=1&mute=1" width="640" height="360" frameborder="1" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1bVmLU7y2LIrQjiZZ-Qtv6k995YNnwOHZ/preview?autoplay=1&mute=1" width="640" height="360" frameborder="1" allow="autoplay"></iframe>
 <div class="caption">
     Water vapor is sucked into a very small UAV propeller in an attempt to visualize the flow field. 
 </div>
@@ -49,7 +49,9 @@ I teamed up with two (now former) Ph.D. students from [Paulo Arratia's fluid dyn
 
 From this setup we were able to obtain this slow motion video of water vapor particles in the wake of the propeller.  
 
-<iframe src="https://drive.google.com/file/d/1RiHctGggiD_5oWgiyQ_S_KS7jQT-UfrN/preview" width="512" height="992" allow="autoplay"></iframe>
+<div class="row justify-content-sm-center">
+    <iframe src="https://drive.google.com/file/d/1RiHctGggiD_5oWgiyQ_S_KS7jQT-UfrN/preview" width="512" height="992" allow="autoplay"></iframe>
+</div>
 <div class="caption">
     Wake visualization for a 50mm diameter propeller operating at 3,000 rpm. 
 </div>
@@ -58,14 +60,18 @@ It was pretty cool to see this visualization for the first time! Most of the vap
 
 Here is a wake visualization for the same propeller operating at 15,000 rpm. 
 
-<iframe src="https://drive.google.com/file/d/1t2DeSabOmM5LhxocSsrUNCT70j7LuzOQ/preview" width="512" height="992" allow="autoplay"></iframe>
+<div class="row justify-content-sm-center">
+    <iframe src="https://drive.google.com/file/d/1t2DeSabOmM5LhxocSsrUNCT70j7LuzOQ/preview" width="512" height="992" allow="autoplay"></iframe>
+</div>
 <div class="caption">
     Wake visualization for a 50mm diameter propeller operating at 15,000 rpm. 
 </div>
 
 While the visualization certainly looks cool, we weren't really able to capture much velocimetry data from this. At higher speeds, the water vapor was too diffuse and our laser was too weak to capture individual vapor particles necessary for PIV. Nevetheless, we *did* manage to get velocimetry data at 5,000 rpm and 7,500 rpm. 
 
-<iframe src="https://drive.google.com/file/d/175QT1pFfNhsqK0TjGFW995RQXltxVyqC/preview" width="480" height="864" frameborder="1" allow="autoplay"></iframe>
+<div class="row justify-content-sm-center">
+    <iframe src="https://drive.google.com/file/d/175QT1pFfNhsqK0TjGFW995RQXltxVyqC/preview" width="480" height="864" frameborder="1" allow="autoplay"></iframe>
+</div>
 <div class="caption">
     Particle image velocimetry data extracted from a 50mm diameter propeller operating at 7,500 rpm. 
 </div>
