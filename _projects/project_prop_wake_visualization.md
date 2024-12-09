@@ -8,7 +8,9 @@ category: work
 related_publications: true
 ---
 
-<iframe src="https://drive.google.com/file/d/1bVmLU7y2LIrQjiZZ-Qtv6k995YNnwOHZ/preview?autoplay=1&mute=1" width="640" height="360" frameborder="1" allow="autoplay"></iframe>
+<div class="row justify-content-sm-center">
+    <iframe src="https://drive.google.com/file/d/1uK6M31inFo143eEuVVUpDHUJt1OimMk3/preview" width="600" height="338" allow="autoplay"></iframe>
+</div>
 <div class="caption">
     Water vapor is sucked into a very small UAV propeller in an attempt to visualize the flow field. 
 </div>
@@ -75,6 +77,8 @@ While the visualization certainly looks cool, we weren't really able to capture 
 <div class="caption">
     Particle image velocimetry data extracted from a 50mm diameter propeller operating at 7,500 rpm. 
 </div>
+
+The velocimetry data further demonstrates how turbulent the wake flow field is. One of the more surprising observations we made is that some of the flow velocities were upwards of 10 m/s coming out of a 50mm propeller! 
 
 <div class="row justify-content-sm-center">
   <div class="col-sm mt-3 mt-md-0">
