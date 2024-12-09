@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Unpublished work that I think is useful or neat! 
+description: Mostly unpublished work that I think was insightful, useful, or just simply neat! 
 nav: true
 nav_order: 2
 display_categories: [work, fun]
