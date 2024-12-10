@@ -78,7 +78,7 @@ While the visualization certainly looks cool, we weren't really able to capture 
     Particle image velocimetry data extracted from a 50mm diameter propeller operating at 7,500 rpm. 
 </div>
 
-The velocimetry data further demonstrates how turbulent the wake flow field is. One of the more surprising observations we made is that some of the flow velocities were upwards of 10 m/s coming out of a 50mm propeller! 
+The animated velocimetry data further demonstrates how turbulent the wake flow field is. It seems that on average the wakes were between 1 and 2 m/s on average. Keep in mind though that typically these propellers operate between 15-20,000 rpm. 
 
 <div class="row justify-content-sm-center">
   <div class="col-sm mt-3 mt-md-0">
@@ -86,7 +86,7 @@ The velocimetry data further demonstrates how turbulent the wake flow field is. 
     </div>
 </div>
 <div class="caption">
-    Velocity contour data extracted from particle image velocimetry at 5,000 rpm.
+    Time-averaged velocity contours extracted from particle image velocimetry at 5,000 rpm.
 </div>
 <div class="row justify-content-sm-center">
   <div class="col-sm mt-3 mt-md-0">
@@ -94,7 +94,7 @@ The velocimetry data further demonstrates how turbulent the wake flow field is. 
     </div>
 </div>
 <div class="caption">
-    Velocity contour data extracted from particle image velocimetry at 7,500 rpm.
+    Time-averaged velocity contours extracted from particle image velocimetry at 7,500 rpm.
 </div>
 
 
@@ -110,4 +110,4 @@ The velocimetry data further demonstrates how turbulent the wake flow field is. 
     Time-averaged velocity data along the axial and radial axes of a 50mm propeller at different operating speeds. 
 </div>
 
-We knew from flight testing that the propellers were spinning at upwards of 20,000 rpm in hover, but due to hardware limitations we couldn't visualize the wakes at that speed, much less extract velocimetry data. So ultimately, we decided to pivot. Nevertheless, I am extremely satisfied with the visualizations we were able to come up with especially given the budget and resources available to us at the time!
+We knew from flight testing that the propellers were spinning at upwards of 20,000 rpm in hover, but due to hardware limitations we couldn't visualize the wakes at that speed, much less extract any useful velocimetry data. So ultimately, we decided to pivot. Nevertheless, I am extremely satisfied with the visualizations we were able to come up with, especially given the budget and resources available to us at the time!

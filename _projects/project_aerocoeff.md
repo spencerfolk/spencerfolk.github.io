@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-In the Spring of 2022, I took ESE 650: Learning in Robotics as part of my robotics masters at the University of Pennsylvania. While the course is marketed as a survey of methods spanning perception, planning, and learning, we spent a lot of time delving into the underlying principles of state estimation and it was the first time the concept of a Kalman filter really clicked for me. It's also when I realized how important and powerful Bayesian filtering can be. 
+In the Spring of 2022, I took ESE 650: Learning in Robotics, an elective as part of my robotics masters at the University of Pennsylvania. While the course is marketed as a survey of methods spanning perception, planning, and learning, we spent a lot of time delving into the underlying principles of state estimation and it was the first time the concept of a Kalman filter (and really state estimation as a whole) really clicked for me. It's also when I realized how important and powerful Bayesian filtering can be. 
 
 The final group project for the course was open-ended. I teamed up with a (former) labmate Alexander and we developed an Extended Kalman Filter that could estimate the thrust and drag torque coefficients of the propellers a quadrotor UAV using *only* measurements from an onboard gyroscope. The novelty with this work was that we estimated each propeller's thrust and torque coefficient uniquely whereas the vast majority of other works at the time assumed each propeller was identical. In 99% of cases this is a perfectly fine assumption, but we were interested in scenarios where the aerodynamic coefficients would be different, like where a propeller is damaged mid-flight.
 
@@ -22,6 +22,6 @@ This work was never published because
 
 The second point is a little nuanced and perhaps controversial. If you look at any popular open source flight stacks out there like PX4 or Betaflight, you won't see an explicit thrust or drag torque coefficient in the code (although to be clear you'll probably see a dimensionless thrust coefficient like in PX4). And yet, I can buy a new drone and get pretty good performance with the default parameters and gains because a properly-tuned PID controller will be able to handle the model discrepancies at the low level. 
 
-Now, that being said, I still think for instances like propeller damage detection this could still be a valid approach and might be of interest to some PX4 developer one day. 
+Now, that being said, I still think for instances like propeller damage detection this could still be a valid approach and might be of interest to some PX4 developer one day. All said and done, this was an extremely valuable experience for me and helped me build a strong foundation in state estimation that would influence my later work on wind estimation. 
 
 For all the details on the methodology and the results, feel free to check out our [report](/assets/pdf/ese650_project_report.pdf). 
