@@ -5,7 +5,7 @@ description: A fast and accessible multirotor UAV simulator with lumped paramete
 img: assets/img/projects/rotorpy/quadrotor_model.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 

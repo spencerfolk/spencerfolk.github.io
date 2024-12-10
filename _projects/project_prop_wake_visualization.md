@@ -5,7 +5,7 @@ description: Experimental attempts at visualizing the wakes of small UAV propell
 img: assets/img/projects/prop_wake_visualization/5inprop_diff.png
 importance: 3
 category: work
-related_publications: true
+related_publications: false
 ---
 
 <div class="row justify-content-sm-center">

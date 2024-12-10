@@ -5,7 +5,7 @@ description: Enabling mixed reality sensing on small UAVs by simulating LiDAR se
 img: assets/img/projects/lidarsim/lidar_snapshot.png
 importance: 2
 category: work
-related_publications: true
+related_publications: false
 ---
 
 
