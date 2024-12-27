@@ -8,7 +8,11 @@ category: work
 related_publications: false
 ---
 
-<p align="center"><img src="https://github.com/spencerfolk/rotorpy/blob/main/media/double_pillar.gif" width="32%"/><img src="https://github.com/spencerfolk/rotorpy/blob/main/media/gusty.gif" width="32%"/><img src="https://github.com/spencerfolk/rotorpy/blob/main/media/minsnap.gif" width="32%"/></p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/spencerfolk/rotorpy/main/media/ppo_hover_1000k.gif" width="32%"/>
+  <img src="https://raw.githubusercontent.com/spencerfolk/rotorpy/main/media/gusty.gif" width="32%"/>
+  <img src="https://raw.githubusercontent.com/spencerfolk/rotorpy/main/media/minsnap.gif" width="32%"/>
+</p>
 
 During my Ph.D. I developed RotorPy, a UAV simulator written in Python and born out of a desire for a fast, modular, easy-to-use simulation framework that I could use for my research. When I surveyed existing UAV simulators for this purpose, I found that their aerodynamic models were either lacking or nonexistent. I also struggled with developing with them--simple modifications like implementing a new sensor or modifying the dynamics models seemed overly complicated either because of poor architecture design or (in the majority of cases) lacking documentation. 
 
