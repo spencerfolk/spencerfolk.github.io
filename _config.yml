@@ -6,7 +6,7 @@ title: Spencer Folk # the website title (if blank, full name will be used instea
 first_name: Spencer
 middle_name: 
 last_name: Folk
-email: sfolk@seas.upenn.edu
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
