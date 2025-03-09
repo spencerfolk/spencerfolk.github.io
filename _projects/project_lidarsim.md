@@ -8,6 +8,10 @@ category: work
 related_publications: false
 ---
 
+**TL;DR:** We developed a ROS package to simulate navigational LiDAR sensors in real time using motion capture. 
+
+---
+
 As part of my Ph.D. thesis, I've been running experiments on a *very* small quadrotor UAV. It's so small that it can easily fit in the palm of your hand. The payload capacity is 20g or so and that's on a good day. 
 
 The algorithms I've developed thus far rely on data from navigational LiDARs in order to work. These expensive sensors use laser scans to detect surrounding geometry and typically weigh about 500g, which is over 10x the weight of my UAV... 

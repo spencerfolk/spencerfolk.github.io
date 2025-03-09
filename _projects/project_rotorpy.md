@@ -8,6 +8,10 @@ category: work
 related_publications: false
 ---
 
+**TL;DR:** I developed and now maintain a UAV simulator that can be used for research or as a good entry point into learning about estimation, planning, and control for UAVs. Check it out [here](https://github.com/spencerfolk/rotorpy)!
+
+---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/spencerfolk/rotorpy/main/media/ppo_hover_1000k.gif" width="32%"/>
   <img src="https://raw.githubusercontent.com/spencerfolk/rotorpy/main/media/gusty.gif" width="32%"/>

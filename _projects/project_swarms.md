@@ -8,6 +8,11 @@ category: work
 related_publications: false
 ---
 
+
+**TL;DR:** We developed and ran a cool demo of swarming UAVs for the 2024 APS John Scott Award ceremony. It was kind of like a miniature drone show!
+
+---
+
 In late fall of 2024, myself and a few of my labmates were tasked with putting together a demo of a coordinated swarm of UAVs for the [John Scott Award](http://thejohnscottaward.org/) administered by the American Philosophical Society. 
 
 The goal was to showcase multiple UAVs flying unique formations, somewhat mimicking the increasingly popular drone shows displayed at large events, but this demo had to happen indoors and of course had to be safe for viewers! To accomplish this we actually set up a small motion capture space. You can see below what the demo space looked like. 

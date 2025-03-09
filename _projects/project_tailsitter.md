@@ -8,6 +8,10 @@ category: work
 related_publications: false
 ---
 
+**TL;DR:** For my Ph.D. Qualifying Exam, I developed a novel method for generating constant-altitude transition maneuvers for tailsitter VTOLs.
+
+---
+
 In my second semester of my Ph.D., I had to go through my Qualifying Exams. In [my department](https://www.me.upenn.edu/), the Qualifying Exam was quite unique in that it was a semester-long independent study that culminated in a written report and an hour long oral presentation plus questions. A few weeks before the semester began, we had to propose an appropriately-scoped research topic that we would explore throughout the semester, and we were mostly evaluated on how well we could come up with a research topic, conduct the research, and present the results in what turned out to be a "mini-defense" of sorts. 
 
 For my Qualifying Exam, I proposed a research project investigating transition maneuvers for tailsitter UAVs, which are a specific type of hybrid UAV that can both hover in place like a helicopter and cruise efficiently like a conventional airplane with the use of lifting surfaces. Unlike other hybrid UAVs (like a tilt-rotor or tilt-wing), the actuators and primary lifting surfaces on tailsitter UAVs are fixed in place, and switching between hovering and forward flight requires the entire aircraft to pitch forward almost 90 degrees. This makes the tailsitter UAV much less *mechanically* complex, but it makes the transition between hover and forward flight much more complicated primarily because lifting surfaces are at high risk of stalling. 

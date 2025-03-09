@@ -8,6 +8,10 @@ category: work
 related_publications: false
 ---
 
+**TL;DR:** We synthesized an Extended Kalman Filter for identifying aerodynamic parameters (thrust/torque coefficients) for a quadrotor UAV in real time. 
+
+---
+
 In the Spring of 2022, I took ESE 650: Learning in Robotics, an elective as part of my robotics masters degree at the University of Pennsylvania. The course was marketed as a survey of methods spanning perception, planning, and control, but we ended up spending a large chunk of the semester digging deep into the principles of state estimation. While it certainly wasn't my first exposure to Kalman filtering, it was the first time that the concept really clicked with me.
 
 For the final project of the course, I teamed up with a former labmate, Alexander, and we implemented an Extended Kalman Filter for estimating the thrust and drag torque coefficients of a quadrotor's propellers using *only* measurements from the onboard gyroscope. The novelty with this work was that each propeller's aerodynamic coefficients were estimated independently, whereas the vast majority of other works at the time assumed each propeller was identical. Let's be real, in 99% of cases this is a *perfectly fine assumption*, but our approach would theoretically be useful in situations like where an individual propeller is damaged mid-flight.

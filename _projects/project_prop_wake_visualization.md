@@ -8,6 +8,10 @@ category: work
 related_publications: false
 ---
 
+**TL;DR:** I spent a long time trying to visualize the wake of a very small propeller. It was mildly successful! 
+
+---
+
 <div class="row justify-content-sm-center">
     <iframe src="https://drive.google.com/file/d/1uK6M31inFo143eEuVVUpDHUJt1OimMk3/preview" width="600" height="338" allow="autoplay"></iframe>
 </div>
