@@ -3,7 +3,7 @@ layout: page
 title: Online Aero Parameter Identification
 description: Real-time aerodynamic parameter estimation for UAV propellers for applications in adaptive control.
 img: assets/img/projects/aerocoeff/crazyflie_frames.jpg
-importance: 3
+importance: 4
 category: work
 related_publications: false
 ---
