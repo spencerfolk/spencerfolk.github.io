@@ -17,7 +17,7 @@ Recently my colleague [Hersh Sanghvi](https://hersh500.github.io/) has been usin
 We thought a really cool demo to illustrate the speed up would be to train an RL policy in RotorPy and then transfer it to the real world. After quite a bit of experimentation we managed to get a solid policy. Below is a video demonstration of the policy in action!
 
 <div class="row justify-content-sm-center">
-    <iframe src="https://drive.google.com/file/d/1oEUddiqP6_Far7B9ccilX0qUq7pL39yh/preview" width="1920" height="1080" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1oEUddiqP6_Far7B9ccilX0qUq7pL39yh/preview" width="960" height="540" allow="autoplay"></iframe>
 </div>
 <div class="caption">
     Hovering demonstrated by an RL policy trained in RotorPy. The policy is robust to a variety of disturbances. 
@@ -27,21 +27,22 @@ The policy receives an observation containing the position error, velocity error
 
 The output of the policy is a collective thrust and attitude command (i.e. "angle" mode), which is then tracked by lower level controllers running onboard the quadrotor. The policy itself runs on the base station computer. 
 
-The policy was trained using PPO and our [custom Gymnasium environment](https://github.com/Hersh500/rotorpy/blob/rotorpy_rl/rotorpy/learning/quadrotor_environments.py#L635). In simulation, the agent was exposed to sinusoidal trajectories of varying amplitudes and frequencies. On Hersh's M1 MacBook Pro, it took a little over 3 minutes to train a policy over a couple million simulation steps. 
+The policy was trained using PPO and our [custom Gymnasium environment](https://github.com/Hersh500/rotorpy/blob/rotorpy_rl/rotorpy/learning/quadrotor_environments.py#L635). In simulation, the agent was exposed to sinusoidal trajectories of varying amplitudes and frequencies. On Hersh's M1 MacBook Pro, it took a little over 3 minutes to train a policy over a couple million simulation steps. My (untested) hypothesis is that RotorPy's dynamics model is more accurate than other more simplified simulators, so fewer simulation steps (and therefore less wall clock time) are required to successfully transfer a policy. The results here are a positive indication but by no means conclusive. 
 
-Below is another example of the policy, but this time tracking a figure eight pattern on the XY axis. 
+Below is another example of the policy, but this time tracking a figure eight pattern on the XY plane. 
 
 <div class="row justify-content-sm-center">
-    <iframe src="https://drive.google.com/file/d/17M130lk5eDwshL-CdBR0QBp8QsVpaP_k/preview" width="1920" height="1080" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/17M130lk5eDwshL-CdBR0QBp8QsVpaP_k/preview" width="960" height="540" allow="autoplay"></iframe>
 </div>
 <div class="caption">
     Our RL policy tracking a figure eight pattern. We found including a horizon improved tracking performance and reduced oscillations especially for aggressive maneuvers.  
 </div>
 
-If you're an RL expert, you're probably thinking we didn't really do anything novel here. I completely agree! Nevertheless, we're quite proud of how fast we were able to train a policy using RotorPy, and super excited we were able to cross the infamous *sim2real gap*. 
+If you're an RL expert, you're probably thinking we didn't really do anything novel here. I completely agree! Nevertheless, we're quite proud of how fast we were able to train a policy using RotorPy, and super excited we were able to cross the infamous *sim2real gap* without any fine-tuning on real world data! 
 
 Possible follow-ups we're thinking about: 
 1. We'd love to figure out how to compile the policy and run it using the onboard processor. [It's been done before](https://arxiv.org/abs/2311.13081), and our policy is probably small enough to fit on the flash memory. 
 2. Towards running everything on board, we want to try to train a policy that uses IMU measurements (accelerometer and gyroscope), perhaps even replacing the motion capture observations. There are a lot of practical reasons that I suspect would prevent this from working, but it would get our policies closer to the edge! Fortunately RotorPy has an [IMU model](https://github.com/spencerfolk/rotorpy/blob/main/rotorpy/sensors/imu.py) already!
 3. Try training policies on lower control abstractions, such as body rates or even single motor thrust commands. 
-3. Replicating and testing similar works such as [DATT](https://arxiv.org/abs/2310.09053).
+4. Deeper comparisons with other quadrotor environments for RL (like Isaac Sim), to test my hypothesis above. 
+5. Replicating and testing similar works such as [DATT](https://arxiv.org/abs/2310.09053). 
