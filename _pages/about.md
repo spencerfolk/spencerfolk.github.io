@@ -24,4 +24,13 @@ In addition to my role at GRASP, I work with NASA as a Pathways intern on projec
 
 While my recent work is tailored towards urban air mobility, I'm passionate about all aspects of autonomous flight and its potential applications in society and beyond. On this website, you'll find a collection of my publications and a portfolio of a variety of engineering projects I've worked on over the years. Enjoy!
 
-[Curriculum Vitae](/assets/pdf/cv.pdf)
+<!-- [Curriculum Vitae](/assets/pdf/cv.pdf) -->
+
+<div style="text-align: center; margin-top: 2em;">
+  <a class="btn btn-primary btn-lg" href="/assets/pdf/cv.pdf" target="_blank" role="button">
+    Download CV
+  </a>
+  <a class="btn btn-secondary btn-lg" href="https://drive.google.com/file/d/1D7eMpHrVmWX3ayEEItMEB9D36N3xDYCR/preview" target="_blank" role="button">
+    Research Overview Video
+  </a>
+</div>
