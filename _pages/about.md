@@ -27,10 +27,10 @@ While my recent work is tailored towards urban air mobility, I'm passionate abou
 <!-- [Curriculum Vitae](/assets/pdf/cv.pdf) -->
 
 <div style="text-align: center; margin-top: 2em;">
-  <a class="btn btn-primary btn-lg" href="/assets/pdf/cv.pdf" target="_blank" role="button">
-    Download CV
+  <a class="btn btn-outline-primary btn-lg mx-2" href="/assets/pdf/cv.pdf" target="_blank" role="button">
+    Curriculum Vitae
   </a>
-  <a class="btn btn-secondary btn-lg" href="https://drive.google.com/file/d/1D7eMpHrVmWX3ayEEItMEB9D36N3xDYCR/preview" target="_blank" role="button">
-    Research Overview Video
+  <a class="btn btn-outline-primary btn-lg mx-2" href="https://drive.google.com/file/d/1D7eMpHrVmWX3ayEEItMEB9D36N3xDYCR/preview" target="_blank" role="button">
+    5min Research Overview Video
   </a>
 </div>
