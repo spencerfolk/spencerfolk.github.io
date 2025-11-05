@@ -3,6 +3,33 @@
 
 @string{aps = {American Physical Society,}}
 
+@article(sanghvi2025taco, 
+  abbr={arXiv},
+  title={TACO: Trajectory-Aware Controller Optimization for Quadrotors},
+  author={Sanghvi, Hersh and Folk, Spencer and Kumar, Vijay and Taylor, Camillo Jose},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2511.02060},
+  arxiv={2511.02060},
+  year={2025},
+  abstract={Controller performance in quadrotor trajectory tracking depends heavily on parameter tuning, yet standard approaches often rely on fixed, manually tuned parameters that sacrifice task-specific performance. We present Trajectory-Aware Controller Optimization (TACO), a framework that adapts controller parameters online based on the upcoming reference trajectory and current quadrotor state. TACO employs a learned predictive model and a lightweight optimization scheme to optimize controller gains in real time with respect to a broad class of trajectories, and can also be used to adapt trajectories to improve dynamic feasibility while respecting smoothness constraints. To enable large-scale training, we also introduce a parallelized quadrotor simulator supporting fast data collection on diverse trajectories. Experiments on a variety of trajectory types show that TACO outperforms conventional, static parameter tuning while operating orders of magnitude faster than black-box optimization baselines, enabling practical real-time deployment on a physical quadrotor. Furthermore, we show that adapting trajectories using TACO significantly reduces the tracking error obtained by the quadrotor.},
+  selected={false},
+}
+
+@article(srikanthan2025quadlcd, 
+  abbr={ICRA 2025},
+  title={Quad-LCD: Layered Control Decomposition Enables Actuator-Feasible Quadrotor Trajectory Planning},
+  author={Srikanthan, Anusha and Zhang, Hanli and Folk, Spencer and Kumar, Vijay and Matni, Nikolai},
+  journal={ICRA 2025 Workshop: 25 years of Aerial Robotics: Challenges and Opportunities},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2505.10228},
+  arxiv={2505.10228},
+  year={2025},
+  abstract={In this work, we specialize contributions from prior work on data-driven trajectory generation for a quadrotor system with motor saturation constraints. When motors saturate in quadrotor systems, there is an ``uncontrolled drift" of the vehicle that results in a crash. To tackle saturation, we apply a control decomposition and learn a tracking penalty from simulation data consisting of low, medium and high-cost reference trajectories. Our approach reduces crash rates by around   compared to baselines on aggressive maneuvers in simulation. On the Crazyflie hardware platform, we demonstrate feasibility through experiments that lead to successful flights. Motivated by the growing interest in data-driven methods to quadrotor planning, we provide open-source lightweight code with an easy-to-use abstraction of hardware platforms.},
+  selected={false},
+}
+
 @article{folk2025windplanning,
   abbr={ICRA 2025},
   title={Towards Safe and Energy-Efficient Real-Time Motion Planning in Windy Urban Environments},
